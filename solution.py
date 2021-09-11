@@ -7,7 +7,7 @@ def welcome_assignment_answers(question):
     #The student doesn't have to follow the skeleton for this assignment.
     #Another way to implement is using a "case" statements similar to C.
     if question == "In Slack, what is the secret passphrase posted in the #cyberfellows-computernetworking-fall2021 channel posted by a TA?":
-        answer = "MTLS"
+        answer = "mtls"
     elif question == "Are encoding and encryption the same? - Yes/No":
         answer = ""
     elif question == "Is it possible to decrypt a message without a key? - Yes/No":
@@ -21,9 +21,9 @@ def welcome_assignment_answers(question):
     elif question == "Is MD5 a secured hashing algorithm? - Yes/No":
         answer = "No"
     elif question == "What layer from the TCP/IP model the protocol DHCP belongs to? ":
-        answer = "1"
+        answer = 5
     elif question == "What layer of the TCP/IP model the protocol TCP belongs to?":
-        answer = "2"
+        answer = 4
     return(answer)
 # Complete all the questions.
 
